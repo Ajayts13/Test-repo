@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.777 sec <<< FAILURE! - in TestSuite
+loginTest(testNG_parctice.dataProvider)  Time elapsed: 0.488 sec  <<< FAILURE!
+java.lang.RuntimeException: java.lang.NullPointerException: Cannot load from object array because "obj" is null
+	at testNG_parctice.dataProvider.datatest(dataProvider.java:13)
+
