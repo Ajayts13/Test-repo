@@ -90,8 +90,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.11.0</version> <!-- or the latest version -->
 				<configuration>
-					<source>17.0.11</source> <!-- or your desired Java version -->
-					<target>17.0.11</target> <!-- or your desired Java version -->
+					<source>17</source> <!-- or your desired Java version -->
+					<target>17</target> <!-- or your desired Java version -->
 					<compilerArgs>
 						<arg>--add-exports=jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED</arg>
 					</compilerArgs>
